@@ -1,0 +1,97 @@
+{
+  "uid" : "ab46da4c76c26525",
+  "name" : "I am not logged",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards.I am not logged",
+  "historyId" : "468b8c48b51683385ca7bf122e7b6847",
+  "time" : {
+    "start" : 1523630473837,
+    "stop" : 1523630473860,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630473837,
+        "stop" : 1523630473860,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2170ed1945a0137a",
+        "name" : "Request",
+        "source" : "2170ed1945a0137a.json",
+        "type" : "application/json",
+        "size" : 117
+      }, {
+        "uid" : "95548bda8fa7b84a",
+        "name" : "Response",
+        "source" : "95548bda8fa7b84a.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "check the filter by date functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am not logged"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab46da4c76c26525.json",
+  "parameterValues" : [ "chrome" ]
+}

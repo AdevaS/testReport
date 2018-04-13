@@ -1,0 +1,277 @@
+{
+  "uid" : "8eeddcff14a0bd85",
+  "name" : "I check the user profile information",
+  "fullName" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page.I check the user profile information",
+  "historyId" : "40d3117abe1b99e4af46629b78747529",
+  "time" : {
+    "start" : 1523630422175,
+    "stop" : 1523630422300,
+    "duration" : 125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630422177,
+        "stop" : 1523630422190,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73149fe8eacb5acd",
+        "name" : "Request",
+        "source" : "73149fe8eacb5acd.json",
+        "type" : "application/json",
+        "size" : 142
+      }, {
+        "uid" : "4bc248561787bba3",
+        "name" : "Response",
+        "source" : "4bc248561787bba3.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-13/property/value",
+      "time" : {
+        "start" : 1523630422193,
+        "stop" : 1523630422201,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1ba0092d66c2ccb",
+        "name" : "Response",
+        "source" : "c1ba0092d66c2ccb.json",
+        "type" : "application/json",
+        "size" : 151
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-13/attribute/value",
+      "time" : {
+        "start" : 1523630422205,
+        "stop" : 1523630422219,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84cf2933aeee025f",
+        "name" : "Response",
+        "source" : "84cf2933aeee025f.json",
+        "type" : "application/json",
+        "size" : 106
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630422222,
+        "stop" : 1523630422236,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8f6ec54dbbfbeab",
+        "name" : "Request",
+        "source" : "d8f6ec54dbbfbeab.json",
+        "type" : "application/json",
+        "size" : 142
+      }, {
+        "uid" : "a6db9986ea94565f",
+        "name" : "Response",
+        "source" : "a6db9986ea94565f.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-14/property/value",
+      "time" : {
+        "start" : 1523630422240,
+        "stop" : 1523630422247,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be37d72dbd740eba",
+        "name" : "Response",
+        "source" : "be37d72dbd740eba.json",
+        "type" : "application/json",
+        "size" : 151
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-14/attribute/value",
+      "time" : {
+        "start" : 1523630422247,
+        "stop" : 1523630422261,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d3243937b9744a3",
+        "name" : "Response",
+        "source" : "6d3243937b9744a3.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630422263,
+        "stop" : 1523630422279,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cd4b77089ad8743",
+        "name" : "Request",
+        "source" : "3cd4b77089ad8743.json",
+        "type" : "application/json",
+        "size" : 142
+      }, {
+        "uid" : "4edaf8be560d7920",
+        "name" : "Response",
+        "source" : "4edaf8be560d7920.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-15/property/value",
+      "time" : {
+        "start" : 1523630422281,
+        "stop" : 1523630422287,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d606f593017006bd",
+        "name" : "Response",
+        "source" : "d606f593017006bd.json",
+        "type" : "application/json",
+        "size" : 151
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-15/attribute/value",
+      "time" : {
+        "start" : 1523630422288,
+        "stop" : 1523630422299,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74861cfb53080eb8",
+        "name" : "Response",
+        "source" : "74861cfb53080eb8.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the PROFILE PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "check if the user was correct updated"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I check the user profile information"
+  }, {
+    "name" : "package",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8eeddcff14a0bd85.json",
+  "parameterValues" : [ "chrome" ]
+}

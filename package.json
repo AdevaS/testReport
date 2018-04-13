@@ -1,0 +1,24 @@
+{
+  "name": "seleniumjs",
+  "version": "1.0.0",
+  "description": "Selenium Framework using WebdriverIO, PageObject Pattern and Cucumber",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "wdio-allure-reporter": "^0.6.0",
+    "wdio-cucumber-framework": "^2.0.1",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "report": "allure generate --clean && allure open",
+    "single": "./node_modules/.bin/wdio wdio.conf.js --spec 'features/signup.feature'"
+  },
+  "author": "Adevanir Vieira",
+  "license": "MIT"
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "716182aa1b8dd76c",
+  "name" : "I click on the sign up save button",
+  "fullName" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated.I click on the sign up save button",
+  "historyId" : "dafc0aed32304b6125b2f0ffdf9bc13",
+  "time" : {
+    "start" : 1523630430852,
+    "stop" : 1523630430967,
+    "duration" : 115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element",
+      "time" : {
+        "start" : 1523630430854,
+        "stop" : 1523630430875,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "125314a6ade4c09c",
+        "name" : "Request",
+        "source" : "125314a6ade4c09c.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "461b21c70f9cbbf",
+        "name" : "Response",
+        "source" : "461b21c70f9cbbf.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-9/click",
+      "time" : {
+        "start" : 1523630430877,
+        "stop" : 1523630430966,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "823631a83d3b5187",
+        "name" : "Response",
+        "source" : "823631a83d3b5187.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "sign up with all required fields randomly generated"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the sign up save button"
+  }, {
+    "name" : "package",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "716182aa1b8dd76c.json",
+  "parameterValues" : [ "chrome" ]
+}

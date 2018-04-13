@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected { Object (sessionId, value, ...) } to not exist",
+      "children" : [ {
+        "name" : "The navbar cannot be visible",
+        "uid" : "e10835f769dc165a",
+        "parentUid" : "3c8a9a623c77b9cf39e21957c5094b52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1523630402699,
+          "stop" : 1523630402722,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "3c8a9a623c77b9cf39e21957c5094b52"
+    }, {
+      "name" : "expect.fail()",
+      "children" : [ {
+        "name" : "This task must have a background color \"#3c763d\"",
+        "uid" : "d6c1cff32381faff",
+        "parentUid" : "0d3cf417ab8ee1a921f752a45c309d7b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1523630469593,
+          "stop" : 1523630473811,
+          "duration" : 4218
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "0d3cf417ab8ee1a921f752a45c309d7b"
+    }, {
+      "name" : "expected 3 to equal 2",
+      "children" : [ {
+        "name" : "I expect the table to have two rows",
+        "uid" : "dd9cfd95d9c69ad2",
+        "parentUid" : "7b886f6fe97f1e547bed7e4c664ab178",
+        "status" : "failed",
+        "time" : {
+          "start" : 1523630489969,
+          "stop" : 1523630489992,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "7b886f6fe97f1e547bed7e4c664ab178"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

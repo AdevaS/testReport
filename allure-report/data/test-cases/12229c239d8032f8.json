@@ -1,0 +1,253 @@
+{
+  "uid" : "12229c239d8032f8",
+  "name" : "I choose the starting filter date",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards.I choose the starting filter date",
+  "historyId" : "4d13639257736b5d6be839615886cbeb",
+  "time" : {
+    "start" : 1523630482289,
+    "stop" : 1523630484451,
+    "duration" : 2162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element",
+      "time" : {
+        "start" : 1523630482290,
+        "stop" : 1523630482301,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "297909958cb2e107",
+        "name" : "Request",
+        "source" : "297909958cb2e107.json",
+        "type" : "application/json",
+        "size" : 149
+      }, {
+        "uid" : "f5175085d22aab6f",
+        "name" : "Response",
+        "source" : "f5175085d22aab6f.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.8832579530481086-4/click",
+      "time" : {
+        "start" : 1523630482303,
+        "stop" : 1523630482347,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c96629b50174ba5",
+        "name" : "Response",
+        "source" : "2c96629b50174ba5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630482349,
+        "stop" : 1523630482369,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d790e039196cfb3d",
+        "name" : "Request",
+        "source" : "d790e039196cfb3d.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "fcdbdf566d77b51f",
+        "name" : "Response",
+        "source" : "fcdbdf566d77b51f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630482875,
+        "stop" : 1523630482897,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2515e886513c07e",
+        "name" : "Request",
+        "source" : "a2515e886513c07e.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "27b094408b30f222",
+        "name" : "Response",
+        "source" : "27b094408b30f222.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630483401,
+        "stop" : 1523630483412,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ef1745fedb9eeca",
+        "name" : "Request",
+        "source" : "9ef1745fedb9eeca.json",
+        "type" : "application/json",
+        "size" : 38
+      }, {
+        "uid" : "50de3f569247c121",
+        "name" : "Response",
+        "source" : "50de3f569247c121.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630483914,
+        "stop" : 1523630483930,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "357a2464e1a7929c",
+        "name" : "Request",
+        "source" : "357a2464e1a7929c.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "ec20fa2b4dbe3616",
+        "name" : "Response",
+        "source" : "ec20fa2b4dbe3616.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630484437,
+        "stop" : 1523630484450,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "976afa4dc3ab1dea",
+        "name" : "Request",
+        "source" : "976afa4dc3ab1dea.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "fe9fd5b56114aaca",
+        "name" : "Response",
+        "source" : "fe9fd5b56114aaca.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "check the filter by date functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose the starting filter date"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12229c239d8032f8.json",
+  "parameterValues" : [ "chrome" ]
+}

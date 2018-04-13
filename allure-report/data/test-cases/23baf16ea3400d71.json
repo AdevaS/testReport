@@ -1,0 +1,60 @@
+{
+  "uid" : "23baf16ea3400d71",
+  "name" : "I confirm the deletion on the popup",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality.I confirm the deletion on the popup",
+  "historyId" : "2e972b1723a0deb488ea273ead2e9a1d",
+  "time" : {
+    "start" : 1523630473815,
+    "stop" : 1523630473815,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "I confirm the deletion on the popup"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23baf16ea3400d71.json",
+  "parameterValues" : [ "chrome" ]
+}

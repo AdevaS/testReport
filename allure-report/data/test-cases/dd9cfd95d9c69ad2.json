@@ -1,0 +1,105 @@
+{
+  "uid" : "dd9cfd95d9c69ad2",
+  "name" : "I expect the table to have two rows",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards.I expect the table to have two rows",
+  "historyId" : "96c7ff72e303d00de16dbad0fb786748",
+  "time" : {
+    "start" : 1523630489969,
+    "stop" : 1523630489992,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 3 to equal 2",
+  "statusTrace" : "AssertionError: expected 3 to equal 2\n                    at World.<anonymous> (D:/Projects/seleniumJS/src/step-definitions/tasks.spec.js:124:48)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\Projects\\seleniumJS\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:210:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 3 to equal 2",
+    "statusTrace" : "AssertionError: expected 3 to equal 2\n                    at World.<anonymous> (D:/Projects/seleniumJS/src/step-definitions/tasks.spec.js:124:48)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\Projects\\seleniumJS\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:210:29",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630489974,
+        "stop" : 1523630489990,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ccd5fd9d845ee0e",
+        "name" : "Request",
+        "source" : "ccd5fd9d845ee0e.json",
+        "type" : "application/json",
+        "size" : 127
+      }, {
+        "uid" : "f1ea31528b44a286",
+        "name" : "Response",
+        "source" : "f1ea31528b44a286.json",
+        "type" : "application/json",
+        "size" : 297
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "check the filter by date functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testMethod",
+    "value" : "I expect the table to have two rows"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd9cfd95d9c69ad2.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,145 @@
+{
+  "uid" : "1c6929b2ca42be68",
+  "name" : "I add \"admin\" to the username input field",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information.I add \"admin\" to the username input field",
+  "historyId" : "e43e241b2bb66a1bb8c634ec8aedd848",
+  "time" : {
+    "start" : 1523630387808,
+    "stop" : 1523630387899,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630387809,
+        "stop" : 1523630387823,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e06bcf22e0c2732",
+        "name" : "Request",
+        "source" : "4e06bcf22e0c2732.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "8834f0f8a730e1b6",
+        "name" : "Response",
+        "source" : "8834f0f8a730e1b6.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.37765063835762613-2/clear",
+      "time" : {
+        "start" : 1523630387825,
+        "stop" : 1523630387842,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b63cd533af59e3f",
+        "name" : "Response",
+        "source" : "8b63cd533af59e3f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.37765063835762613-2/value",
+      "time" : {
+        "start" : 1523630387842,
+        "stop" : 1523630387898,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bb14071c039f5e6",
+        "name" : "Request",
+        "source" : "3bb14071c039f5e6.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "238dfc164369ee33",
+        "name" : "Response",
+        "source" : "238dfc164369ee33.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with incomplete information"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testMethod",
+    "value" : "I add \"admin\" to the username input field"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c6929b2ca42be68.json",
+  "parameterValues" : [ "chrome" ]
+}

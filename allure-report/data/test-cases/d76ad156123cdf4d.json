@@ -1,0 +1,253 @@
+{
+  "uid" : "d76ad156123cdf4d",
+  "name" : "A new task is added to the tasks panel",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality.A new task is added to the tasks panel",
+  "historyId" : "df1b12cefd46ffc191a0d7660fc13dc9",
+  "time" : {
+    "start" : 1523630468020,
+    "stop" : 1523630469593,
+    "duration" : 1573
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element",
+      "time" : {
+        "start" : 1523630468023,
+        "stop" : 1523630468045,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "636541a620ff5ec9",
+        "name" : "Request",
+        "source" : "636541a620ff5ec9.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "aa9b346044e1698d",
+        "name" : "Response",
+        "source" : "aa9b346044e1698d.json",
+        "type" : "application/json",
+        "size" : 694
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630468049,
+        "stop" : 1523630468067,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3619a044d982bf4a",
+        "name" : "Request",
+        "source" : "3619a044d982bf4a.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "d705fd0c26256d00",
+        "name" : "Response",
+        "source" : "d705fd0c26256d00.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630468547,
+        "stop" : 1523630468559,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bdbc8db9ed32d97b",
+        "name" : "Request",
+        "source" : "bdbc8db9ed32d97b.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "83fedd04765c20b2",
+        "name" : "Response",
+        "source" : "83fedd04765c20b2.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630469050,
+        "stop" : 1523630469063,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "460c3ed4f1c5c837",
+        "name" : "Request",
+        "source" : "460c3ed4f1c5c837.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "c31acbcefe5661f2",
+        "name" : "Response",
+        "source" : "c31acbcefe5661f2.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630469550,
+        "stop" : 1523630469562,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72f5051b7204bc9",
+        "name" : "Request",
+        "source" : "72f5051b7204bc9.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "ebc7e7794a644547",
+        "name" : "Response",
+        "source" : "ebc7e7794a644547.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements",
+      "time" : {
+        "start" : 1523630469562,
+        "stop" : 1523630469574,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "727054cc2cbdf01c",
+        "name" : "Request",
+        "source" : "727054cc2cbdf01c.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "5a7a851818396e30",
+        "name" : "Response",
+        "source" : "5a7a851818396e30.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.6144668690021688-7/displayed",
+      "time" : {
+        "start" : 1523630469574,
+        "stop" : 1523630469593,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9bd43d8fddd044a0",
+        "name" : "Response",
+        "source" : "9bd43d8fddd044a0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "A new task is added to the tasks panel"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d76ad156123cdf4d.json",
+  "parameterValues" : [ "chrome" ]
+}

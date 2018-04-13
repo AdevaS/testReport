@@ -1,0 +1,118 @@
+{
+  "uid" : "e325c31ebf00fb23",
+  "name" : "I click on the profile save button",
+  "fullName" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated.I click on the profile save button",
+  "historyId" : "2cf32da5c475c304947d078a10aa6b3d",
+  "time" : {
+    "start" : 1523630419969,
+    "stop" : 1523630422046,
+    "duration" : 2077
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630419973,
+        "stop" : 1523630419991,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb66a5ec629d6ee",
+        "name" : "Request",
+        "source" : "bb66a5ec629d6ee.json",
+        "type" : "application/json",
+        "size" : 105
+      }, {
+        "uid" : "df3a0f9219572b5f",
+        "name" : "Response",
+        "source" : "df3a0f9219572b5f.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-11/click",
+      "time" : {
+        "start" : 1523630419993,
+        "stop" : 1523630420043,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "efc9472e1f8371e3",
+        "name" : "Response",
+        "source" : "efc9472e1f8371e3.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the PROFILE PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "updating a user profile through the profile page"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the profile save button"
+  }, {
+    "name" : "package",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e325c31ebf00fb23.json",
+  "parameterValues" : [ "chrome" ]
+}

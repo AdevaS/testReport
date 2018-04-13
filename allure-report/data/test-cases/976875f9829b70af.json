@@ -1,0 +1,242 @@
+{
+  "uid" : "976875f9829b70af",
+  "name" : "I expect the error message \"Oops! Could not authenticate user\"",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information.I expect the error message \"Oops! Could not authenticate user\"",
+  "historyId" : "52daa521aa61a5edf26ead473626b509",
+  "time" : {
+    "start" : 1523630401376,
+    "stop" : 1523630402462,
+    "duration" : 1086
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630401381,
+        "stop" : 1523630401399,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3519d60051baf837",
+        "name" : "Request",
+        "source" : "3519d60051baf837.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "398154daed6636d6",
+        "name" : "Response",
+        "source" : "398154daed6636d6.json",
+        "type" : "application/json",
+        "size" : 658
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630401402,
+        "stop" : 1523630401417,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be16d74d4a4dbd5e",
+        "name" : "Request",
+        "source" : "be16d74d4a4dbd5e.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "bfdc1c02ab7819ac",
+        "name" : "Response",
+        "source" : "bfdc1c02ab7819ac.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630401902,
+        "stop" : 1523630401918,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7be990a4f6d418d3",
+        "name" : "Request",
+        "source" : "7be990a4f6d418d3.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "d3bc8a03c5947d36",
+        "name" : "Response",
+        "source" : "d3bc8a03c5947d36.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630402403,
+        "stop" : 1523630402416,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3651ac12e9f8ec9f",
+        "name" : "Request",
+        "source" : "3651ac12e9f8ec9f.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "8fd7b6e169d41f12",
+        "name" : "Response",
+        "source" : "8fd7b6e169d41f12.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630402417,
+        "stop" : 1523630402432,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16a9a0a4b818e7b4",
+        "name" : "Request",
+        "source" : "16a9a0a4b818e7b4.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "cfd3376df87cc705",
+        "name" : "Response",
+        "source" : "cfd3376df87cc705.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.37765063835762613-7/text",
+      "time" : {
+        "start" : 1523630402435,
+        "stop" : 1523630402461,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27db9a07a3a44d81",
+        "name" : "Response",
+        "source" : "27db9a07a3a44d81.json",
+        "type" : "application/json",
+        "size" : 122
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with incomplete information"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testMethod",
+    "value" : "I expect the error message \"Oops! Could not authenticate user\""
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "99a0a2032ad1e99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523630394057,
+        "stop" : 1523630395141,
+        "duration" : 1084
+      }
+    }, {
+      "uid" : "e5c241fc07bc4c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523630387231,
+        "stop" : 1523630387807,
+        "duration" : 576
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "976875f9829b70af.json",
+  "parameterValues" : [ "chrome" ]
+}

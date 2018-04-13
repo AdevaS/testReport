@@ -1,0 +1,145 @@
+{
+  "uid" : "e38a8b3d95346367",
+  "name" : "I add the generated password number to the sign up password confirmation input field",
+  "fullName" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated.I add the generated password number to the sign up password confirmation input field",
+  "historyId" : "bc344280909e06d51d966908e2b61fe7",
+  "time" : {
+    "start" : 1523630430772,
+    "stop" : 1523630430852,
+    "duration" : 80
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element",
+      "time" : {
+        "start" : 1523630430773,
+        "stop" : 1523630430785,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4331036acfc07ba",
+        "name" : "Request",
+        "source" : "b4331036acfc07ba.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "b36953b8fb7d5ff6",
+        "name" : "Response",
+        "source" : "b36953b8fb7d5ff6.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/clear",
+      "time" : {
+        "start" : 1523630430786,
+        "stop" : 1523630430797,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d145806e7da3521",
+        "name" : "Response",
+        "source" : "1d145806e7da3521.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/value",
+      "time" : {
+        "start" : 1523630430797,
+        "stop" : 1523630430852,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4a37f20bd9cb195",
+        "name" : "Request",
+        "source" : "c4a37f20bd9cb195.json",
+        "type" : "application/json",
+        "size" : 193
+      }, {
+        "uid" : "251da71e9604f8f7",
+        "name" : "Response",
+        "source" : "251da71e9604f8f7.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "sign up with all required fields randomly generated"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated"
+  }, {
+    "name" : "testMethod",
+    "value" : "I add the generated password number to the sign up password confirmation input field"
+  }, {
+    "name" : "package",
+    "value" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e38a8b3d95346367.json",
+  "parameterValues" : [ "chrome" ]
+}

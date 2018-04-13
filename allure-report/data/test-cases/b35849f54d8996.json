@@ -1,0 +1,295 @@
+{
+  "uid" : "b35849f54d8996",
+  "name" : "I am logged as the first profile tester user",
+  "fullName" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated.I am logged as the first profile tester user",
+  "historyId" : "379b9a8a9a0f0d916c046ca676131118",
+  "time" : {
+    "start" : 1523630406176,
+    "stop" : 1523630417242,
+    "duration" : 11066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/url",
+      "time" : {
+        "start" : 1523630406184,
+        "stop" : 1523630408882,
+        "duration" : 2698
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eeadcdd78ab8754d",
+        "name" : "Request",
+        "source" : "eeadcdd78ab8754d.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "c26aeaeb65e0527c",
+        "name" : "Response",
+        "source" : "c26aeaeb65e0527c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/elements",
+      "time" : {
+        "start" : 1523630411898,
+        "stop" : 1523630411928,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13001fcec182d01",
+        "name" : "Request",
+        "source" : "13001fcec182d01.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "e888418700d418a4",
+        "name" : "Response",
+        "source" : "e888418700d418a4.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-1/clear",
+      "time" : {
+        "start" : 1523630411929,
+        "stop" : 1523630411953,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0f97b17a57f007d",
+        "name" : "Response",
+        "source" : "b0f97b17a57f007d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-1/value",
+      "time" : {
+        "start" : 1523630411954,
+        "stop" : 1523630412030,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af48e8020c752fd7",
+        "name" : "Request",
+        "source" : "af48e8020c752fd7.json",
+        "type" : "application/json",
+        "size" : 151
+      }, {
+        "uid" : "980ed8a2d8a8fc49",
+        "name" : "Response",
+        "source" : "980ed8a2d8a8fc49.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/elements",
+      "time" : {
+        "start" : 1523630412031,
+        "stop" : 1523630412055,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a16e52dcf0637eff",
+        "name" : "Request",
+        "source" : "a16e52dcf0637eff.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "90f52bf6960a373",
+        "name" : "Response",
+        "source" : "90f52bf6960a373.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-2/clear",
+      "time" : {
+        "start" : 1523630412059,
+        "stop" : 1523630412085,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f275b0641b14de9b",
+        "name" : "Response",
+        "source" : "f275b0641b14de9b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-2/value",
+      "time" : {
+        "start" : 1523630412085,
+        "stop" : 1523630412151,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7da5db21ec7dcff",
+        "name" : "Request",
+        "source" : "e7da5db21ec7dcff.json",
+        "type" : "application/json",
+        "size" : 123
+      }, {
+        "uid" : "447f5225ce297c13",
+        "name" : "Response",
+        "source" : "447f5225ce297c13.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630412159,
+        "stop" : 1523630412180,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cde73cedde1a0dc9",
+        "name" : "Request",
+        "source" : "cde73cedde1a0dc9.json",
+        "type" : "application/json",
+        "size" : 151
+      }, {
+        "uid" : "13dc9c05ff9952b8",
+        "name" : "Response",
+        "source" : "13dc9c05ff9952b8.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-3/click",
+      "time" : {
+        "start" : 1523630412181,
+        "stop" : 1523630412235,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26ccefc47e769352",
+        "name" : "Response",
+        "source" : "26ccefc47e769352.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the PROFILE PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "updating a user profile through the profile page"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am logged as the first profile tester user"
+  }, {
+    "name" : "package",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b35849f54d8996.json",
+  "parameterValues" : [ "chrome" ]
+}

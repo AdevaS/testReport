@@ -1,0 +1,965 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "I clear the sign up username input field",
+    "uid" : "95415e82d1b9d877",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430440,
+      "stop" : 1523630430489,
+      "duration" : 49
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the sign up working hours input field",
+    "uid" : "4948694db1579b23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430328,
+      "stop" : 1523630430373,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am at the sign in page",
+    "uid" : "899a3ef628c04050",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630387037,
+      "stop" : 1523630387090,
+      "duration" : 53
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "A new task is added to the tasks panel",
+    "uid" : "d76ad156123cdf4d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630468020,
+      "stop" : 1523630469593,
+      "duration" : 1573
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am redirected to the tasks page",
+    "uid" : "be60896a9b3a651d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430967,
+      "stop" : 1523630432065,
+      "duration" : 1098
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click the export button",
+    "uid" : "5bacae07fc0a1bab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630498529,
+      "stop" : 1523630501619,
+      "duration" : 3090
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add the generated password number to the sign up password confirmation input field",
+    "uid" : "e38a8b3d95346367",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430772,
+      "stop" : 1523630430852,
+      "duration" : 80
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+    "uid" : "a3b3ce15be6bcca0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630427287,
+      "stop" : 1523630429981,
+      "duration" : 2694
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign out button",
+    "uid" : "5d14f53ba6bfb5b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1523630489992,
+      "stop" : 1523630489995,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am at the profile page",
+    "uid" : "a22820e326c6cf36",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630422062,
+      "stop" : 1523630422175,
+      "duration" : 113
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the tasks page",
+    "uid" : "aa240bd3d94d4762",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630465005,
+      "stop" : 1523630465022,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"The color of this register should be RED\" to the note text area field",
+    "uid" : "eb6b7e50e739f551",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630450335,
+      "stop" : 1523630450564,
+      "duration" : 229
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am not logged",
+    "uid" : "ab46da4c76c26525",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630473837,
+      "stop" : 1523630473860,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"foo\" to the username input field",
+    "uid" : "809e03ff26b90425",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385396,
+      "stop" : 1523630385471,
+      "duration" : 75
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am at the profile page",
+    "uid" : "9dc7966df1f8939e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630417242,
+      "stop" : 1523630417394,
+      "duration" : 152
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I choose todays date in the when input field",
+    "uid" : "3fef33da55c85b69",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630465022,
+      "stop" : 1523630467625,
+      "duration" : 2603
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "This task must have a background color \"#3c763d\"",
+    "uid" : "d6c1cff32381faff",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1523630469593,
+      "stop" : 1523630473811,
+      "duration" : 4218
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I log in as the user \"admin\"",
+    "uid" : "214d91e326e96cad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630435556,
+      "stop" : 1523630447595,
+      "duration" : 12039
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign out button",
+    "uid" : "b0d98607a64d1a46",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630456396,
+      "stop" : 1523630456488,
+      "duration" : 92
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "This task must have a background color \"#f2dede\"",
+    "uid" : "4c2c01ad019b8f1d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630452248,
+      "stop" : 1523630452282,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am logged as the first profile tester user",
+    "uid" : "b35849f54d8996",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630406176,
+      "stop" : 1523630417242,
+      "duration" : 11066
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I log in as the user \"user\"",
+    "uid" : "9f0ba0d2b7279a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630473860,
+      "stop" : 1523630482274,
+      "duration" : 8414
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the tasks page",
+    "uid" : "6cb9e15f730e2d42",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630498517,
+      "stop" : 1523630498529,
+      "duration" : 12
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the tasks page",
+    "uid" : "1f353412381519bf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630482274,
+      "stop" : 1523630482289,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign in button",
+    "uid" : "623970490c48a1d6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630395291,
+      "stop" : 1523630401376,
+      "duration" : 6085
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I change the profile back to its original state",
+    "uid" : "e955f999fddb9770",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630422300,
+      "stop" : 1523630423898,
+      "duration" : 1598
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"7\" to the time spent field",
+    "uid" : "fd6e170160287430",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630450235,
+      "stop" : 1523630450335,
+      "duration" : 100
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am not logged",
+    "uid" : "bb21f8479c3b3104",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630490008,
+      "stop" : 1523630490130,
+      "duration" : 122
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the save task button",
+    "uid" : "f143ceba962d8ac7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630467945,
+      "stop" : 1523630468020,
+      "duration" : 75
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I expect the error message \"Oops! Could not authenticate user\"",
+    "uid" : "b20062000123d65b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385715,
+      "stop" : 1523630386802,
+      "duration" : 1087
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+    "uid" : "464cc05975112fd4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630382585,
+      "stop" : 1523630385279,
+      "duration" : 2694
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the profile save button",
+    "uid" : "e325c31ebf00fb23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630419969,
+      "stop" : 1523630422046,
+      "duration" : 2077
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign out button",
+    "uid" : "90d5a3669caddb85",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1523630473815,
+      "stop" : 1523630473816,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the sign up password confirmation input field",
+    "uid" : "e63881941443f15a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430727,
+      "stop" : 1523630430772,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I log in as the user \"admin\"",
+    "uid" : "6eee331730f66f9a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630456525,
+      "stop" : 1523630465005,
+      "duration" : 8480
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add a random string to the sign up password input field",
+    "uid" : "3cd4f1a41a58926c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430621,
+      "stop" : 1523630430727,
+      "duration" : 106
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I confirm the deletion on the popup",
+    "uid" : "8f471aabb5d3a2fd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630453854,
+      "stop" : 1523630456370,
+      "duration" : 2516
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click the filter button",
+    "uid" : "464448ca51ae5826",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630487583,
+      "stop" : 1523630489969,
+      "duration" : 2386
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I choose the starting filter date",
+    "uid" : "12229c239d8032f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630482289,
+      "stop" : 1523630484451,
+      "duration" : 2162
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I confirm the deletion on the popup",
+    "uid" : "23baf16ea3400d71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1523630473815,
+      "stop" : 1523630473815,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am at the sign in page",
+    "uid" : "4f4121cfc22b9d6d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630402649,
+      "stop" : 1523630402699,
+      "duration" : 50
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I log in as the user \"user\"",
+    "uid" : "4e72e22dfdbfefb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630490130,
+      "stop" : 1523630498517,
+      "duration" : 8387
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "A new task is added to the tasks panel",
+    "uid" : "d92c4e1e3d9892ec",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630450664,
+      "stop" : 1523630452248,
+      "duration" : 1584
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "The task must be removed from the tasks panel",
+    "uid" : "b194d6f3caa68b16",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1523630473815,
+      "stop" : 1523630473815,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "All the filtered tasks will be exported",
+    "uid" : "27e56166161ce69c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630501619,
+      "stop" : 1523630501665,
+      "duration" : 46
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the sign up full name input field",
+    "uid" : "69256442816f8b01",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430168,
+      "stop" : 1523630430211,
+      "duration" : 43
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am at the sign in page",
+    "uid" : "27173604a03efe0d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385280,
+      "stop" : 1523630385344,
+      "duration" : 64
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I expect the error message \"Oops! Could not authenticate user\"",
+    "uid" : "976875f9829b70af",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630401376,
+      "stop" : 1523630402462,
+      "duration" : 1086
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the password input field",
+    "uid" : "c0124179192da627",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385471,
+      "stop" : 1523630385516,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the tasks page",
+    "uid" : "59b5f4ac3d808021",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630447596,
+      "stop" : 1523630447632,
+      "duration" : 36
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I change the user profile information",
+    "uid" : "9d9fb488f210d607",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630417394,
+      "stop" : 1523630419969,
+      "duration" : 2575
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"admin\" to the username input field",
+    "uid" : "1c6929b2ca42be68",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630387808,
+      "stop" : 1523630387899,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the username input field",
+    "uid" : "cfc838064db27e60",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630395284,
+      "stop" : 1523630395291,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "The navbar cannot be visible",
+    "uid" : "e10835f769dc165a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1523630402699,
+      "stop" : 1523630402722,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "The task must be removed from the tasks panel",
+    "uid" : "1a26addba937e5db",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630456371,
+      "stop" : 1523630456396,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am not logged",
+    "uid" : "1e441d4e02baabd4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630456512,
+      "stop" : 1523630456525,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the password input field",
+    "uid" : "9d7ea63c55bc409c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630387899,
+      "stop" : 1523630387945,
+      "duration" : 46
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am not logged",
+    "uid" : "a9da08a41bf24ed7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630435503,
+      "stop" : 1523630435556,
+      "duration" : 53
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I choose todays date in the when input field",
+    "uid" : "511b8b09a9e7776c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630447632,
+      "stop" : 1523630450235,
+      "duration" : 2603
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign up save button",
+    "uid" : "716182aa1b8dd76c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430852,
+      "stop" : 1523630430967,
+      "duration" : 115
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the delete button",
+    "uid" : "a62c025110659235",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1523630473811,
+      "stop" : 1523630473814,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+    "uid" : "bb5335e84a078e37",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630402498,
+      "stop" : 1523630402649,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+    "uid" : "771259873bcf5334",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630386828,
+      "stop" : 1523630387037,
+      "duration" : 209
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I check the user profile information",
+    "uid" : "8eeddcff14a0bd85",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630422175,
+      "stop" : 1523630422300,
+      "duration" : 125
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add a random string to the sign up full name input field",
+    "uid" : "435b30ad9ba6a800",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430211,
+      "stop" : 1523630430328,
+      "duration" : 117
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"8\" to the time spent field",
+    "uid" : "e21233e386a0d3e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630467625,
+      "stop" : 1523630467723,
+      "duration" : 98
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the delete button",
+    "uid" : "e9a99915efabefb9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630452282,
+      "stop" : 1523630453854,
+      "duration" : 1572
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add a random number to the sign up working hours input field",
+    "uid" : "6c133be49d1d026a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430373,
+      "stop" : 1523630430440,
+      "duration" : 67
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"The color of this register should be GREEN\" to the note text area field",
+    "uid" : "296a1838f621bf5c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630467724,
+      "stop" : 1523630467945,
+      "duration" : 221
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign up button",
+    "uid" : "d89fec02776093f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630429981,
+      "stop" : 1523630430084,
+      "duration" : 103
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"123456\" to the password input field",
+    "uid" : "3b751b38e8872cbf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630395141,
+      "stop" : 1523630395283,
+      "duration" : 142
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I expect the table to have two rows",
+    "uid" : "dd9cfd95d9c69ad2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1523630489969,
+      "stop" : 1523630489992,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add a random string to the sign up username input field",
+    "uid" : "e2353b91c6e89110",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430489,
+      "stop" : 1523630430576,
+      "duration" : 87
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I add \"bar\" to the password input field",
+    "uid" : "8e41cda0ced6aea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385516,
+      "stop" : 1523630385585,
+      "duration" : 69
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am at the sign up page",
+    "uid" : "c7abe33ef85c7b77",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430084,
+      "stop" : 1523630430168,
+      "duration" : 84
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the sign in button",
+    "uid" : "e49c7198132bc66c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385585,
+      "stop" : 1523630385715,
+      "duration" : 130
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I choose the ending filter date",
+    "uid" : "a9b40453fe31192a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630484451,
+      "stop" : 1523630487583,
+      "duration" : 3132
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the sign up password input field",
+    "uid" : "cb41ba2915edf894",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630430576,
+      "stop" : 1523630430621,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I clear the username input field",
+    "uid" : "8b2afe150cbee8a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630385344,
+      "stop" : 1523630385396,
+      "duration" : 52
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click on the save task button",
+    "uid" : "d011057dbd044f82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1523630450565,
+      "stop" : 1523630450664,
+      "duration" : 99
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

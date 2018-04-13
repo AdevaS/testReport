@@ -1,0 +1,116 @@
+{
+  "uid" : "1c36ddad5058ca9c",
+  "name" : "I clear the username input field",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information.I clear the username input field",
+  "historyId" : "3648ca21975850373f184744fe994f1d",
+  "time" : {
+    "start" : 1523630387090,
+    "stop" : 1523630387135,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630387091,
+        "stop" : 1523630387108,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbe71f52c3edc3b9",
+        "name" : "Request",
+        "source" : "bbe71f52c3edc3b9.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "de23498ce6407a3c",
+        "name" : "Response",
+        "source" : "de23498ce6407a3c.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.37765063835762613-2/clear",
+      "time" : {
+        "start" : 1523630387110,
+        "stop" : 1523630387135,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "553cab523fc7bd22",
+        "name" : "Response",
+        "source" : "553cab523fc7bd22.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with incomplete information"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testMethod",
+    "value" : "I clear the username input field"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c36ddad5058ca9c.json",
+  "parameterValues" : [ "chrome" ]
+}

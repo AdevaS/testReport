@@ -1,0 +1,118 @@
+{
+  "uid" : "8b2afe150cbee8a6",
+  "name" : "I clear the username input field",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page.I clear the username input field",
+  "historyId" : "18b2ce456a5ee1f0dc86c097a6955e21",
+  "time" : {
+    "start" : 1523630385344,
+    "stop" : 1523630385396,
+    "duration" : 52
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630385347,
+        "stop" : 1523630385371,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72ecbc0f833bb4a8",
+        "name" : "Request",
+        "source" : "72ecbc0f833bb4a8.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "667a07bd46bdd6fb",
+        "name" : "Response",
+        "source" : "667a07bd46bdd6fb.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.674483798395275-2/clear",
+      "time" : {
+        "start" : 1523630385374,
+        "stop" : 1523630385396,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1042d4db62b35f58",
+        "name" : "Response",
+        "source" : "1042d4db62b35f58.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with fake credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I clear the username input field"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b2afe150cbee8a6.json",
+  "parameterValues" : [ "chrome" ]
+}

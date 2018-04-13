@@ -1,0 +1,145 @@
+{
+  "uid" : "809e03ff26b90425",
+  "name" : "I add \"foo\" to the username input field",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page.I add \"foo\" to the username input field",
+  "historyId" : "be64d5f316bdf4c6b38f7024ab4a9422",
+  "time" : {
+    "start" : 1523630385396,
+    "stop" : 1523630385471,
+    "duration" : 75
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630385398,
+        "stop" : 1523630385412,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d86b793e95ac165",
+        "name" : "Request",
+        "source" : "3d86b793e95ac165.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "8020dadd2eddadc8",
+        "name" : "Response",
+        "source" : "8020dadd2eddadc8.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.674483798395275-2/clear",
+      "time" : {
+        "start" : 1523630385415,
+        "stop" : 1523630385428,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5b14588d104b643",
+        "name" : "Response",
+        "source" : "f5b14588d104b643.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.674483798395275-2/value",
+      "time" : {
+        "start" : 1523630385428,
+        "stop" : 1523630385471,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e123627da4511823",
+        "name" : "Request",
+        "source" : "e123627da4511823.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "e778153e77da3eab",
+        "name" : "Response",
+        "source" : "e778153e77da3eab.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with fake credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I add \"foo\" to the username input field"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "809e03ff26b90425.json",
+  "parameterValues" : [ "chrome" ]
+}

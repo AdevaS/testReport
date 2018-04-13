@@ -1,0 +1,118 @@
+{
+  "uid" : "4f4121cfc22b9d6d",
+  "name" : "I am at the sign in page",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials.I am at the sign in page",
+  "historyId" : "5f7314e462e83697d347b83948efdb0d",
+  "time" : {
+    "start" : 1523630402649,
+    "stop" : 1523630402699,
+    "duration" : 50
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630402651,
+        "stop" : 1523630402666,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1f440248fa95c25",
+        "name" : "Request",
+        "source" : "b1f440248fa95c25.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "53d4046c8a4b1a0",
+        "name" : "Response",
+        "source" : "53d4046c8a4b1a0.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.11698611043360896-1/text",
+      "time" : {
+        "start" : 1523630402668,
+        "stop" : 1523630402699,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "654a01fe2a01f7d0",
+        "name" : "Response",
+        "source" : "654a01fe2a01f7d0.json",
+        "type" : "application/json",
+        "size" : 170
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "the navbar cannot appear on the login page"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am at the sign in page"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f4121cfc22b9d6d.json",
+  "parameterValues" : [ "chrome" ]
+}

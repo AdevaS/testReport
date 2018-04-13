@@ -1,0 +1,205 @@
+{
+  "uid" : "a9b40453fe31192a",
+  "name" : "I choose the ending filter date",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards.I choose the ending filter date",
+  "historyId" : "6b7199b374809686d4794a7131a6dd63",
+  "time" : {
+    "start" : 1523630484451,
+    "stop" : 1523630487583,
+    "duration" : 3132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630484455,
+        "stop" : 1523630484470,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a301d2ebfdf6ccf",
+        "name" : "Request",
+        "source" : "4a301d2ebfdf6ccf.json",
+        "type" : "application/json",
+        "size" : 38
+      }, {
+        "uid" : "a9f5b8b86a6d1bcf",
+        "name" : "Response",
+        "source" : "a9f5b8b86a6d1bcf.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630484972,
+        "stop" : 1523630484991,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed7545ff482ca735",
+        "name" : "Request",
+        "source" : "ed7545ff482ca735.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "925649f513cbc441",
+        "name" : "Response",
+        "source" : "925649f513cbc441.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630485499,
+        "stop" : 1523630485521,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f03f48776e810df",
+        "name" : "Request",
+        "source" : "6f03f48776e810df.json",
+        "type" : "application/json",
+        "size" : 38
+      }, {
+        "uid" : "61483904698d941",
+        "name" : "Response",
+        "source" : "61483904698d941.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630486027,
+        "stop" : 1523630486062,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1982b324a4f6a15",
+        "name" : "Request",
+        "source" : "d1982b324a4f6a15.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "60fbbc5e671c6980",
+        "name" : "Response",
+        "source" : "60fbbc5e671c6980.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630486564,
+        "stop" : 1523630486580,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31e7edefba34d2d1",
+        "name" : "Request",
+        "source" : "31e7edefba34d2d1.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "c93dbc1c4d172efd",
+        "name" : "Response",
+        "source" : "c93dbc1c4d172efd.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "check the filter by date functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose the ending filter date"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9b40453fe31192a.json",
+  "parameterValues" : [ "chrome" ]
+}

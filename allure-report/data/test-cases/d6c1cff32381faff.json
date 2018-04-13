@@ -1,0 +1,243 @@
+{
+  "uid" : "d6c1cff32381faff",
+  "name" : "This task must have a background color \"#3c763d\"",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality.This task must have a background color \"#3c763d\"",
+  "historyId" : "3a47856811570f956592e53dc76a6c89",
+  "time" : {
+    "start" : 1523630469593,
+    "stop" : 1523630473811,
+    "duration" : 4218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect.fail()",
+  "statusTrace" : "AssertionError: expect.fail()\n                    at World.<anonymous> (D:/Projects/seleniumJS/src/step-definitions/tasks.spec.js:70:14)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\Projects\\seleniumJS\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:210:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect.fail()",
+    "statusTrace" : "AssertionError: expect.fail()\n                    at World.<anonymous> (D:/Projects/seleniumJS/src/step-definitions/tasks.spec.js:70:14)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\Projects\\seleniumJS\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:210:29",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element",
+      "time" : {
+        "start" : 1523630469594,
+        "stop" : 1523630469609,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bf8e7e6306e3a3d",
+        "name" : "Request",
+        "source" : "7bf8e7e6306e3a3d.json",
+        "type" : "application/json",
+        "size" : 101
+      }, {
+        "uid" : "e7c9f4ddc1158ca2",
+        "name" : "Response",
+        "source" : "e7c9f4ddc1158ca2.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.6144668690021688-7/css/background-color",
+      "time" : {
+        "start" : 1523630469611,
+        "stop" : 1523630469627,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb4effd798351cab",
+        "name" : "Response",
+        "source" : "fb4effd798351cab.json",
+        "type" : "application/json",
+        "size" : 105
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element",
+      "time" : {
+        "start" : 1523630469628,
+        "stop" : 1523630469647,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52d21300c60bfb08",
+        "name" : "Request",
+        "source" : "52d21300c60bfb08.json",
+        "type" : "application/json",
+        "size" : 112
+      }, {
+        "uid" : "54328b1f8088a301",
+        "name" : "Response",
+        "source" : "54328b1f8088a301.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.6144668690021688-8/click",
+      "time" : {
+        "start" : 1523630469649,
+        "stop" : 1523630469694,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68fd8863a40b4f81",
+        "name" : "Response",
+        "source" : "68fd8863a40b4f81.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/accept_alert",
+      "time" : {
+        "start" : 1523630471203,
+        "stop" : 1523630471216,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db434b858872327e",
+        "name" : "Response",
+        "source" : "db434b858872327e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element",
+      "time" : {
+        "start" : 1523630473722,
+        "stop" : 1523630473739,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e2ad4b15c5ed7cb",
+        "name" : "Request",
+        "source" : "3e2ad4b15c5ed7cb.json",
+        "type" : "application/json",
+        "size" : 117
+      }, {
+        "uid" : "2db4b65212c23b57",
+        "name" : "Response",
+        "source" : "2db4b65212c23b57.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.6144668690021688-9/click",
+      "time" : {
+        "start" : 1523630473740,
+        "stop" : 1523630473810,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19883c1dc3bd1d24",
+        "name" : "Response",
+        "source" : "19883c1dc3bd1d24.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "create a new task to validate the correct GREEN background color removing the register afterwards"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "This task must have a background color \"#3c763d\""
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d6c1cff32381faff.json",
+  "parameterValues" : [ "chrome" ]
+}

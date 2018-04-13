@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#app > div > div > div.col-lg-6 > form > div:nth-child(2) > input"
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "bb5335e84a078e37",
+  "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials.I open the home page url \"http://vcosta.com.br:8001\"",
+  "historyId" : "f8cbf32edee8fb36137c35f958d91c8d",
+  "time" : {
+    "start" : 1523630402498,
+    "stop" : 1523630402649,
+    "duration" : 151
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/url",
+      "time" : {
+        "start" : 1523630402498,
+        "stop" : 1523630402598,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5872a53d81be6af1",
+        "name" : "Request",
+        "source" : "5872a53d81be6af1.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "aaa93fcd8ae0a152",
+        "name" : "Response",
+        "source" : "aaa93fcd8ae0a152.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630402601,
+        "stop" : 1523630402622,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18533b8a2f272842",
+        "name" : "Request",
+        "source" : "18533b8a2f272842.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "65568679bee26db8",
+        "name" : "Response",
+        "source" : "65568679bee26db8.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630402624,
+        "stop" : 1523630402649,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65b9ca84c3b1d1b5",
+        "name" : "Request",
+        "source" : "65b9ca84c3b1d1b5.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "cdc21df824904f90",
+        "name" : "Response",
+        "source" : "cdc21df824904f90.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "the navbar cannot appear on the login page"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the home page url \"http://vcosta.com.br:8001\""
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb5335e84a078e37.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "771259873bcf5334",
+  "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information.I open the home page url \"http://vcosta.com.br:8001\"",
+  "historyId" : "e5f1b9163921361191c42247b682ad60",
+  "time" : {
+    "start" : 1523630386828,
+    "stop" : 1523630387037,
+    "duration" : 209
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/url",
+      "time" : {
+        "start" : 1523630386828,
+        "stop" : 1523630386992,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "824bd0d1b7ee829",
+        "name" : "Request",
+        "source" : "824bd0d1b7ee829.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "4bde9fa4ef48353a",
+        "name" : "Response",
+        "source" : "4bde9fa4ef48353a.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630386995,
+        "stop" : 1523630387013,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38f900ae90bdf69",
+        "name" : "Request",
+        "source" : "38f900ae90bdf69.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "4b874e1dffc34ba6",
+        "name" : "Response",
+        "source" : "4b874e1dffc34ba6.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630387018,
+        "stop" : 1523630387036,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d3f815a305b68",
+        "name" : "Request",
+        "source" : "9d3f815a305b68.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "f421524e02720b8",
+        "name" : "Response",
+        "source" : "f421524e02720b8.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with incomplete information"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the home page url \"http://vcosta.com.br:8001\""
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "771259873bcf5334.json",
+  "parameterValues" : [ "chrome" ]
+}

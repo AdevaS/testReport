@@ -1,0 +1,182 @@
+{
+  "uid" : "623970490c48a1d6",
+  "name" : "I click on the sign in button",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information.I click on the sign in button",
+  "historyId" : "23e6a1e4a246312964bcd439e98ddbbb",
+  "time" : {
+    "start" : 1523630395291,
+    "stop" : 1523630401376,
+    "duration" : 6085
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630395292,
+        "stop" : 1523630395305,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e0c104b45499b5b",
+        "name" : "Request",
+        "source" : "5e0c104b45499b5b.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "d25926044de7ea29",
+        "name" : "Response",
+        "source" : "d25926044de7ea29.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.37765063835762613-6/displayed",
+      "time" : {
+        "start" : 1523630395306,
+        "stop" : 1523630395324,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fcb207399a8b334",
+        "name" : "Response",
+        "source" : "8fcb207399a8b334.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630401327,
+        "stop" : 1523630401341,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4353471bfd57aed1",
+        "name" : "Request",
+        "source" : "4353471bfd57aed1.json",
+        "type" : "application/json",
+        "size" : 151
+      }, {
+        "uid" : "82189361667b8114",
+        "name" : "Response",
+        "source" : "82189361667b8114.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.37765063835762613-3/click",
+      "time" : {
+        "start" : 1523630401342,
+        "stop" : 1523630401375,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f3ebfb078213cb0",
+        "name" : "Response",
+        "source" : "4f3ebfb078213cb0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with incomplete information"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the sign in button"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3df4c1391931cbd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523630387946,
+        "stop" : 1523630394057,
+        "duration" : 6111
+      }
+    }, {
+      "uid" : "f6779e41cf78edf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523630387135,
+        "stop" : 1523630387231,
+        "duration" : 96
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "623970490c48a1d6.json",
+  "parameterValues" : [ "chrome" ]
+}

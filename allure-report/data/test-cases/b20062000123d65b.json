@@ -1,0 +1,226 @@
+{
+  "uid" : "b20062000123d65b",
+  "name" : "I expect the error message \"Oops! Could not authenticate user\"",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page.I expect the error message \"Oops! Could not authenticate user\"",
+  "historyId" : "c7b681dcf15e1cbc16757e45af8ffe32",
+  "time" : {
+    "start" : 1523630385715,
+    "stop" : 1523630386802,
+    "duration" : 1087
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630385719,
+        "stop" : 1523630385746,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e98e62837d80cdf5",
+        "name" : "Request",
+        "source" : "e98e62837d80cdf5.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "e5e02690cee8d924",
+        "name" : "Response",
+        "source" : "e5e02690cee8d924.json",
+        "type" : "application/json",
+        "size" : 658
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630385752,
+        "stop" : 1523630385764,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b12e103e3cfb2e2",
+        "name" : "Request",
+        "source" : "3b12e103e3cfb2e2.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "18820258a188d95b",
+        "name" : "Response",
+        "source" : "18820258a188d95b.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630386256,
+        "stop" : 1523630386272,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2933f5c2590db1f4",
+        "name" : "Request",
+        "source" : "2933f5c2590db1f4.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "3839bb94dc404e35",
+        "name" : "Response",
+        "source" : "3839bb94dc404e35.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630386755,
+        "stop" : 1523630386770,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dde63859f871ac7",
+        "name" : "Request",
+        "source" : "8dde63859f871ac7.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "63c131e6ac8d408f",
+        "name" : "Response",
+        "source" : "63c131e6ac8d408f.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630386770,
+        "stop" : 1523630386780,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d5cc92e01aebcd9",
+        "name" : "Request",
+        "source" : "9d5cc92e01aebcd9.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "d1ee7534fcd5771a",
+        "name" : "Response",
+        "source" : "d1ee7534fcd5771a.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element/0.674483798395275-5/text",
+      "time" : {
+        "start" : 1523630386782,
+        "stop" : 1523630386802,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f0dac1600541b43",
+        "name" : "Response",
+        "source" : "4f0dac1600541b43.json",
+        "type" : "application/json",
+        "size" : 122
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with fake credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I expect the error message \"Oops! Could not authenticate user\""
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b20062000123d65b.json",
+  "parameterValues" : [ "chrome" ]
+}

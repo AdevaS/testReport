@@ -1,0 +1,151 @@
+{
+  "uid" : "464cc05975112fd4",
+  "name" : "I open the home page url \"http://vcosta.com.br:8001\"",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page.I open the home page url \"http://vcosta.com.br:8001\"",
+  "historyId" : "42dfd75b8d691dc1f4e54e208fca514e",
+  "time" : {
+    "start" : 1523630382585,
+    "stop" : 1523630385279,
+    "duration" : 2694
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/url",
+      "time" : {
+        "start" : 1523630382591,
+        "stop" : 1523630385190,
+        "duration" : 2599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d45b8fbd21aed0ff",
+        "name" : "Request",
+        "source" : "d45b8fbd21aed0ff.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "a6105dca62c468f7",
+        "name" : "Response",
+        "source" : "a6105dca62c468f7.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630385196,
+        "stop" : 1523630385267,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7b28fb82821611d",
+        "name" : "Request",
+        "source" : "f7b28fb82821611d.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "9961bdaf7b62ef2e",
+        "name" : "Response",
+        "source" : "9961bdaf7b62ef2e.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/elements",
+      "time" : {
+        "start" : 1523630385268,
+        "stop" : 1523630385278,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d7db331f8831fa4",
+        "name" : "Request",
+        "source" : "5d7db331f8831fa4.json",
+        "type" : "application/json",
+        "size" : 99
+      }, {
+        "uid" : "fba8d96ca615ddeb",
+        "name" : "Response",
+        "source" : "fba8d96ca615ddeb.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "log in with fake credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the home page url \"http://vcosta.com.br:8001\""
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "464cc05975112fd4.json",
+  "parameterValues" : [ "chrome" ]
+}

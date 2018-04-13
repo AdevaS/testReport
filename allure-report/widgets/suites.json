@@ -1,0 +1,114 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "ccbcef6a5f99bb6d4abee7bf379cd34e",
+    "name" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "7aa3ebbd2dbe95b8bc0f3bb0b6550c2a",
+    "name" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "2c14017b8b54868e380afdc000d57e4e",
+    "name" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "540abb1a07a402ea77f2bc7b1d6c7ab4",
+    "name" : "Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "2dd9514e82b5bc9a7a84b2d54106c10f",
+    "name" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "4bff10ff9970d1d04e53d3fa66aff840",
+    "name" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information the navbar cannot appear on the login page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "68721a8ddb2a70e0e3895aca433548a8",
+    "name" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials log in with incomplete information",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "0a89c867775c7dfd3f838e37a088907d",
+    "name" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "5098786becc300e347e25ef190d080aa",
+    "name" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "781c65b7693ddd031ecc3c5fda905556",
+    "name" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

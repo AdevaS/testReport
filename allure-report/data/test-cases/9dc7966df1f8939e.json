@@ -1,0 +1,166 @@
+{
+  "uid" : "9dc7966df1f8939e",
+  "name" : "I am at the profile page",
+  "fullName" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated.I am at the profile page",
+  "historyId" : "aad4723db858307a8f76e4db777d0cd8",
+  "time" : {
+    "start" : 1523630417242,
+    "stop" : 1523630417394,
+    "duration" : 152
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630417245,
+        "stop" : 1523630417263,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fd170a30188ea7d",
+        "name" : "Request",
+        "source" : "5fd170a30188ea7d.json",
+        "type" : "application/json",
+        "size" : 117
+      }, {
+        "uid" : "16c0c7f1fc6a9fa4",
+        "name" : "Response",
+        "source" : "16c0c7f1fc6a9fa4.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-4/click",
+      "time" : {
+        "start" : 1523630417268,
+        "stop" : 1523630417332,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7e26488ea41a02f",
+        "name" : "Response",
+        "source" : "b7e26488ea41a02f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element",
+      "time" : {
+        "start" : 1523630417339,
+        "stop" : 1523630417362,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f359050ff08e2458",
+        "name" : "Request",
+        "source" : "f359050ff08e2458.json",
+        "type" : "application/json",
+        "size" : 116
+      }, {
+        "uid" : "c9745d2949c2c58f",
+        "name" : "Response",
+        "source" : "c9745d2949c2c58f.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/646c39a0afc508c580f88be1eaf85aab/element/0.5999831694068585-5/text",
+      "time" : {
+        "start" : 1523630417367,
+        "stop" : 1523630417392,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2bcf6ac496362079",
+        "name" : "Response",
+        "source" : "2bcf6ac496362079.json",
+        "type" : "application/json",
+        "size" : 112
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the PROFILE PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "updating a user profile through the profile page"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am at the profile page"
+  }, {
+    "name" : "package",
+    "value" : "Testing the PROFILE PAGE for the Time Management System updating a user profile through the profile page check if the user was correct updated"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dc7966df1f8939e.json",
+  "parameterValues" : [ "chrome" ]
+}

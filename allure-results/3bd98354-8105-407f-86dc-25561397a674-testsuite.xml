@@ -1,0 +1,588 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1523630435480' stop='1523630456488'>
+    <name>Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report</name>
+    <title>Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report</title>
+    <test-cases>
+        <test-case start='1523630435503' status='passed' stop='1523630435556'>
+            <name>I am not logged</name>
+            <title>I am not logged</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630435510' status='passed' stop='1523630435554'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='370b5d4f-dbf5-47bd-a693-65733326403f-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='bbb0d2f1-b758-4db6-bff9-d07c5315e28d-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630435556' status='passed' stop='1523630447595'>
+            <name>I log in as the user "admin"</name>
+            <title>I log in as the user "admin"</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630435561' status='passed' stop='1523630436706'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/window/current/maximize</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='d807f1ca-f15a-4150-8804-8fb101c63ca3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630436709' status='passed' stop='1523630439275'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3b8e297b-a8cc-414c-a2cb-1303b6782a0f-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='ae0e353b-209e-4526-9d74-a8cedaf9e878-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442289' status='passed' stop='1523630442315'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c0090a58-eb99-420a-b49e-2ed275b832f2-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='89b1dcba-6b2e-4083-a672-ca385eb2f529-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442317' status='passed' stop='1523630442340'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-1/clear</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='35e1f59e-7781-49b4-95b3-5002a56c46f8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442341' status='passed' stop='1523630442395'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-1/value</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='4942ebf1-7460-4169-be72-b05f1acf9bcf-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='b170ac96-4e96-4e36-b518-c0bb2bc94630-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442397' status='passed' stop='1523630442419'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c5c9acef-4620-42a6-9f45-61ab5e001883-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='e7a57611-e810-46c9-b60f-855775b08823-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442420' status='passed' stop='1523630442446'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-2/clear</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a2e1b13e-538b-4966-8860-45b4d54c0873-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442446' status='passed' stop='1523630442499'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-2/value</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='18cc75a0-ef16-4e13-8aea-e3bcc35570e9-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='6baefea4-f7ee-4b5c-92f0-d715e857c07a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442503' status='passed' stop='1523630442524'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4001822a-11b4-4d46-9b31-cc674da87e81-attachment.json' type='application/json' size='151'/>
+                        <attachment title='Response' source='be069d56-3784-4123-a976-ba392d2f3c44-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630442526' status='passed' stop='1523630442587'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-3/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='cabb726a-348b-448e-91ed-95d5b5a05b92-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630447596' status='passed' stop='1523630447632'>
+            <name>I am on the tasks page</name>
+            <title>I am on the tasks page</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630447609' status='passed' stop='1523630447630'>
+                    <name>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</name>
+                    <title>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</title>
+                    <attachments>
+                        <attachment title='Response' source='7903a038-482f-45e6-9a4c-be7371d373c7-attachment.json' type='application/json' size='122'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630447632' status='passed' stop='1523630450235'>
+            <name>I choose todays date in the when input field</name>
+            <title>I choose todays date in the when input field</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630448137' status='passed' stop='1523630448155'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='582d2186-e7d9-4f9b-b1e9-8d86213d8f4b-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='12da6d04-0690-4f6e-a469-71ce42a862f7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630448659' status='passed' stop='1523630448678'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='600a493e-b2ea-402d-b999-8ecd9aa1589e-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='098bb54a-dc92-4cf5-ba28-80894436d03c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630449182' status='passed' stop='1523630449194'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='c45e5667-76c7-4f1a-8f38-1b4b44303fd3-attachment.json' type='application/json' size='36'/>
+                        <attachment title='Response' source='e56f0150-50f7-419b-9f21-595ead3ba1ab-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630449698' status='passed' stop='1523630449715'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='cea0bd06-7c76-4530-ad3a-53d1e496035b-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='b4a275fe-2450-4689-a2da-77ede88e90eb-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450219' status='passed' stop='1523630450234'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='4cd7a321-71aa-4b26-9634-ef89a351d14d-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='7ddd8c9d-574d-4a6d-b661-66170281ba2e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630450235' status='passed' stop='1523630450335'>
+            <name>I add "7" to the time spent field</name>
+            <title>I add "7" to the time spent field</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630450238' status='passed' stop='1523630450256'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2214c17b-e080-47ba-bcf0-684375b4431f-attachment.json' type='application/json' size='159'/>
+                        <attachment title='Response' source='53a254e0-6870-48f2-b6d2-0ebf7a8db5db-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450258' status='passed' stop='1523630450285'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-4/clear</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-4/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='96043146-2595-4cc4-a33d-26a8336cf35f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450285' status='passed' stop='1523630450334'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-4/value</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-4/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b2f6588e-2c8e-4316-96c5-753be3fa035d-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f3bd119b-434c-4d25-a39e-105f08ba4b5d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630450335' status='passed' stop='1523630450564'>
+            <name>I add "The color of this register should be RED" to the note text area field</name>
+            <title>I add "The color of this register should be RED" to the note text area field</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630450344' status='passed' stop='1523630450362'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='79aabfa1-d1a7-487e-8b57-a5556f132ee7-attachment.json' type='application/json' size='149'/>
+                        <attachment title='Response' source='8fbd33b5-2016-4348-ba5f-36207b9a650d-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450366' status='passed' stop='1523630450393'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-5/clear</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-5/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='de5222e9-a7f1-424c-bc37-39cc876559dd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450394' status='passed' stop='1523630450564'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-5/value</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-5/value</title>
+                    <attachments>
+                        <attachment title='Request' source='eb92d760-63ff-494d-bc7a-1087b7cd1903-attachment.json' type='application/json' size='599'/>
+                        <attachment title='Response' source='0f169055-83a7-4299-8976-97123d57d36d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630450565' status='passed' stop='1523630450664'>
+            <name>I click on the save task button</name>
+            <title>I click on the save task button</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630450567' status='passed' stop='1523630450584'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0f0a30e3-e99f-491d-8ca2-0fddd283d6a1-attachment.json' type='application/json' size='141'/>
+                        <attachment title='Response' source='001a3196-85f5-40b8-b688-80230c3d2dce-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450592' status='passed' stop='1523630450663'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-6/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='2b937766-d65b-49a9-9fe9-cc54533b3a06-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630450664' status='passed' stop='1523630452248'>
+            <name>A new task is added to the tasks panel</name>
+            <title>A new task is added to the tasks panel</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630450667' status='passed' stop='1523630450689'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='32c61017-a252-4bbb-a639-b3ddab3d5595-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='39572bb1-20f0-41c4-a534-9c169ec1f7df-attachment.json' type='application/json' size='694'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630450695' status='passed' stop='1523630450712'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='48764359-d078-4a63-8dea-8a484bedf235-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='69b045bf-d4d1-4d68-b31f-35a2e2fe6869-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630451193' status='passed' stop='1523630451206'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c50b67d2-928f-4380-94c6-aa1df854f4ef-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='5b085e34-4c6c-4817-b070-7a4e7f1bf3f5-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630451699' status='passed' stop='1523630451711'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4185f152-8f7f-45c8-8a28-64b9dfb01fb6-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='d752cc37-b605-4452-9c32-987ad736250c-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630452198' status='passed' stop='1523630452214'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4b94e55a-1617-4615-bbec-c0f057c4366d-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='5adb9e08-42c3-4c02-87b2-806cf8db48ad-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630452215' status='passed' stop='1523630452227'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='267314e6-4d26-4b00-9c5e-7e2b2bf3fa27-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='d4e643f4-d968-440e-aa20-8dcfa087a9e9-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630452229' status='passed' stop='1523630452247'>
+                    <name>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-7/displayed</name>
+                    <title>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-7/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='0ea05e5b-b08f-4a78-ad5b-9b9b2552bd0a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630452248' status='passed' stop='1523630452282'>
+            <name>This task must have a background color "#f2dede"</name>
+            <title>This task must have a background color "#f2dede"</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630452250' status='passed' stop='1523630452263'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4335b722-918a-40a4-8a12-eda4d160547b-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='421c52a5-4b08-4dd3-b751-bf119d23ec0a-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630452265' status='passed' stop='1523630452282'>
+                    <name>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-7/css/background-color</name>
+                    <title>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-7/css/background-color</title>
+                    <attachments>
+                        <attachment title='Response' source='ebdc9cde-2225-45a1-8896-0d805798309e-attachment.json' type='application/json' size='111'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630452282' status='passed' stop='1523630453854'>
+            <name>I click on the delete button</name>
+            <title>I click on the delete button</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630452285' status='passed' stop='1523630452304'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d53a8774-b565-4a86-9959-7e7e7b9c08bc-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='5ff96ad6-ccf3-4126-b7db-daf83411258f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630452305' status='passed' stop='1523630452353'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-8/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-8/click</title>
+                    <attachments>
+                        <attachment title='Response' source='6032eee7-f6a0-40fe-bfb3-ec01840161d2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630453854' status='passed' stop='1523630456370'>
+            <name>I confirm the deletion on the popup</name>
+            <title>I confirm the deletion on the popup</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630453858' status='passed' stop='1523630453868'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/accept_alert</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/accept_alert</title>
+                    <attachments>
+                        <attachment title='Response' source='621880a0-cb9a-42d0-88ae-217eee7d1e01-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630456371' status='passed' stop='1523630456396'>
+            <name>The task must be removed from the tasks panel</name>
+            <title>The task must be removed from the tasks panel</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630456380' status='passed' stop='1523630456396'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='394289bd-0f0a-4f35-a377-a1db3c680055-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='20141d57-b3b9-4eee-bb0f-8baf23892e66-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630456396' status='passed' stop='1523630456488'>
+            <name>I click on the sign out button</name>
+            <title>I click on the sign out button</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='create a new task to validate the correct RED background color removing the register afterwards'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630456396' status='passed' stop='1523630456413'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3d332af5-9853-4cee-8627-992441051567-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='3a896c84-ba6d-414a-8f2b-bb96d0ff5efe-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630456417' status='passed' stop='1523630456487'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-9/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.4930156995698267-9/click</title>
+                    <attachments>
+                        <attachment title='Response' source='bb7bf75f-063c-410b-9ed2-41f329b74eba-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

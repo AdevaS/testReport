@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"D:\\\\Projects\\\\seleniumJS\\\\features\\\\tasks.feature\"]" ],
+  "name" : "spec files"
+} ]

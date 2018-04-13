@@ -1,0 +1,205 @@
+{
+  "uid" : "511b8b09a9e7776c",
+  "name" : "I choose todays date in the when input field",
+  "fullName" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report.I choose todays date in the when input field",
+  "historyId" : "142865dadd199f7882dea133314e5a0b",
+  "time" : {
+    "start" : 1523630447632,
+    "stop" : 1523630450235,
+    "duration" : 2603
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630448137,
+        "stop" : 1523630448155,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "397f3f7ebab8e216",
+        "name" : "Request",
+        "source" : "397f3f7ebab8e216.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "4da644c252b70834",
+        "name" : "Response",
+        "source" : "4da644c252b70834.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630448659,
+        "stop" : 1523630448678,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a9d083cdfc39ac1",
+        "name" : "Request",
+        "source" : "1a9d083cdfc39ac1.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "5bcf413d0478267e",
+        "name" : "Response",
+        "source" : "5bcf413d0478267e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630449182,
+        "stop" : 1523630449194,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4cd87cd0477c4b4",
+        "name" : "Request",
+        "source" : "e4cd87cd0477c4b4.json",
+        "type" : "application/json",
+        "size" : 38
+      }, {
+        "uid" : "56c888bcab77ef87",
+        "name" : "Response",
+        "source" : "56c888bcab77ef87.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630449698,
+        "stop" : 1523630449715,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7527ba9a1a85213",
+        "name" : "Request",
+        "source" : "a7527ba9a1a85213.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "132b440f0737d5ff",
+        "name" : "Response",
+        "source" : "132b440f0737d5ff.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/keys",
+      "time" : {
+        "start" : 1523630450219,
+        "stop" : 1523630450234,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c760d2c42d9dead",
+        "name" : "Request",
+        "source" : "8c760d2c42d9dead.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "981372b3cef8bd95",
+        "name" : "Response",
+        "source" : "981372b3cef8bd95.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the TASK PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "create a new task to validate the correct RED background color removing the register afterwards"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose todays date in the when input field"
+  }, {
+    "name" : "package",
+    "value" : "Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards create a new task to validate the correct GREEN background color removing the register afterwards check the filter by date functionality exporting tasks and checking the report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "511b8b09a9e7776c.json",
+  "parameterValues" : [ "chrome" ]
+}

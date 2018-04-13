@@ -1,0 +1,260 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1523630435479' stop='1523630501667'>
+    <name>Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards</name>
+    <title>Testing the TASK PAGE for the Time Management System create a new task to validate the correct RED background color removing the register afterwards</title>
+    <test-cases>
+        <test-case start='1523630490008' status='passed' stop='1523630490130'>
+            <name>I am not logged</name>
+            <title>I am not logged</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='exporting tasks and checking the report'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630490008' status='passed' stop='1523630490021'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6edc8893-a20a-4e2a-9563-ab4648b6fde6-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='5256da48-106a-4b57-b567-53a8c3616660-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630490022' status='passed' stop='1523630490040'>
+                    <name>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.39695271329338566-4/displayed</name>
+                    <title>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.39695271329338566-4/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='15a9eba4-ccdd-4437-b13c-2461d02b563c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630490041' status='passed' stop='1523630490059'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5b69884b-e0f6-4466-988d-1472b87b8fea-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='27b1a629-f668-4267-9e45-20de6aadaae2-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630490060' status='passed' stop='1523630490129'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.39695271329338566-4/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.39695271329338566-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='3d61765f-0a71-44bd-8541-c2cae79444d8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630490130' status='passed' stop='1523630498517'>
+            <name>I log in as the user "user"</name>
+            <title>I log in as the user "user"</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='exporting tasks and checking the report'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630490132' status='passed' stop='1523630490141'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/window/current/maximize</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='58373e25-37db-43a8-bde5-7349bf8d5bbc-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630490142' status='passed' stop='1523630490220'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</title>
+                    <attachments>
+                        <attachment title='Request' source='99688a86-9a42-468c-9038-cf698ddb10b8-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='175b0b84-8845-4d7f-ad47-4da66cdf80c2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493229' status='passed' stop='1523630493248'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fe5d4da6-6cab-4ae7-aeb0-9456f9fcad8f-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='7b78856e-bf8a-4487-8e70-c924dbfb9a38-attachment.json' type='application/json' size='158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493249' status='passed' stop='1523630493268'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-1/clear</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='87750cae-c322-4173-8da4-713acc08682e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493268' status='passed' stop='1523630493320'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-1/value</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='88619b91-0707-4550-806f-faff8f1a0f84-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='2ccc6bde-999f-441c-80d1-1f55f840e5b5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493322' status='passed' stop='1523630493344'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fd54b99e-f32f-48c7-88af-f5e289c17518-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='7a6d7ed2-8049-4455-a8f0-82226d657f9f-attachment.json' type='application/json' size='158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493345' status='passed' stop='1523630493367'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-2/clear</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='466d9c02-f342-4043-b786-5784b11d12e3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493368' status='passed' stop='1523630493430'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-2/value</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2379f00c-3e55-497e-a7af-0d8a5c6d9b7a-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='4338730e-3b0f-4541-8dfd-5cf02be9ba65-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493431' status='passed' stop='1523630493453'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0a71a24b-7eba-4423-92e8-a0ae95334993-attachment.json' type='application/json' size='151'/>
+                        <attachment title='Response' source='3e0c6967-333b-4d5d-aed8-81a3ebb6d503-attachment.json' type='application/json' size='134'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630493454' status='passed' stop='1523630493517'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-3/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='05938c25-3c49-46f5-92ce-935678c49b7f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630498517' status='passed' stop='1523630498529'>
+            <name>I am on the tasks page</name>
+            <title>I am on the tasks page</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='exporting tasks and checking the report'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630498520' status='passed' stop='1523630498529'>
+                    <name>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</name>
+                    <title>GET /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/url</title>
+                    <attachments>
+                        <attachment title='Response' source='04b6ddc0-c180-4ed7-a3b5-18393324eeff-attachment.json' type='application/json' size='122'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630498529' status='passed' stop='1523630501619'>
+            <name>I click the export button</name>
+            <title>I click the export button</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='exporting tasks and checking the report'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630498530' status='passed' stop='1523630498548'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element</title>
+                    <attachments>
+                        <attachment title='Request' source='018eb497-4cc5-4a5a-89e9-2ca17496a3d9-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='b8f82d23-2aed-4708-88ab-c26bd1dee4d7-attachment.json' type='application/json' size='134'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630498553' status='passed' stop='1523630498618'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-4/click</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/element/0.78842102402038-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='66271910-3516-401a-9177-730a9ad4006b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630501619' status='passed' stop='1523630501665'>
+            <name>All the filtered tasks will be exported</name>
+            <title>All the filtered tasks will be exported</title>
+            <labels>
+                <label name='feature' value='Testing the TASK PAGE for the Time Management System'/>
+                <label name='story' value='exporting tasks and checking the report'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\tasks.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630501621' status='passed' stop='1523630501644'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c485ede3-1ad7-4fe0-ab18-5d4e35c8bd6b-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='cfde314d-0989-42e5-ae44-3f67c9aac33a-attachment.json' type='application/json' size='288'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630501651' status='passed' stop='1523630501664'>
+                    <name>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</name>
+                    <title>POST /wd/hub/session/61967ff023bc3ceeeb102bd55266dd96/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='788e7a9f-a730-4b21-ad54-d926631c62d9-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='3576347a-57ac-4dfd-83d8-74d4fcaa9e88-attachment.json' type='application/json' size='288'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

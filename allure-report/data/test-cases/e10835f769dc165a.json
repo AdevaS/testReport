@@ -1,0 +1,105 @@
+{
+  "uid" : "e10835f769dc165a",
+  "name" : "The navbar cannot be visible",
+  "fullName" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials.The navbar cannot be visible",
+  "historyId" : "ecd7bfd166d55ba3be7f2e08f43b101d",
+  "time" : {
+    "start" : 1523630402699,
+    "stop" : 1523630402722,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (sessionId, value, ...) } to not exist",
+  "statusTrace" : "AssertionError: expected { Object (sessionId, value, ...) } to not exist\n                    at World.<anonymous> (D:/Projects/seleniumJS/src/step-definitions/login.spec.js:46:3)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\Projects\\seleniumJS\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:210:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (sessionId, value, ...) } to not exist",
+    "statusTrace" : "AssertionError: expected { Object (sessionId, value, ...) } to not exist\n                    at World.<anonymous> (D:/Projects/seleniumJS/src/step-definitions/login.spec.js:46:3)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:590:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\Projects\\seleniumJS\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:588:12)\n                    at D:\\Projects\\seleniumJS\\node_modules\\wdio-sync\\build\\index.js:210:29",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8023bf00bd783fca0a387cea5564af2a/element",
+      "time" : {
+        "start" : 1523630402701,
+        "stop" : 1523630402720,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d03423d3f83d627",
+        "name" : "Request",
+        "source" : "8d03423d3f83d627.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "d41c3512496061e2",
+        "name" : "Response",
+        "source" : "d41c3512496061e2.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing the LOGIN PAGE for the Time Management System"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "the navbar cannot appear on the login page"
+  }, {
+    "name" : "suite",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "The navbar cannot be visible"
+  }, {
+    "name" : "package",
+    "value" : "Testing the LOGIN PAGE for the Time Management System log in with fake credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e10835f769dc165a.json",
+  "parameterValues" : [ "chrome" ]
+}

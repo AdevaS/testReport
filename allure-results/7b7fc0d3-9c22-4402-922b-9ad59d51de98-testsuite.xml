@@ -1,0 +1,641 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1523630427264' stop='1523630432065'>
+    <name>Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated</name>
+    <title>Testing the SIGN UP PAGE for the Time Management System sign up with all required fields randomly generated</title>
+    <test-cases>
+        <test-case start='1523630427287' status='passed' stop='1523630429981'>
+            <name>I open the home page url "http://vcosta.com.br:8001"</name>
+            <title>I open the home page url "http://vcosta.com.br:8001"</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630427293' status='passed' stop='1523630429901'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/url</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='003aa462-b325-4604-89cd-d540b61819b8-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='52092eee-fa7c-47e9-a2ff-f61296c700f7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630429905' status='passed' stop='1523630429950'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='df31004a-3518-4dac-8971-9dc4f1bbf2b2-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='d588f1e9-550f-4e2b-b994-dab1b497e11a-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630429957' status='passed' stop='1523630429979'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b7b9cc3a-5ae8-4ff2-90fa-3d02f03c6b1a-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='d0493b98-6715-46ca-ae8b-dc5a30cb243f-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630429981' status='passed' stop='1523630430084'>
+            <name>I click on the sign up button</name>
+            <title>I click on the sign up button</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630429985' status='passed' stop='1523630430007'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='20047b9c-d44d-4890-a08f-b8183a73d37f-attachment.json' type='application/json' size='146'/>
+                        <attachment title='Response' source='89407646-2e94-4b03-ac48-faebb2c4ac87-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430012' status='passed' stop='1523630430084'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-2/click</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='aadba32e-c733-47e8-8d96-5b7973fc36be-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430084' status='passed' stop='1523630430168'>
+            <name>I am at the sign up page</name>
+            <title>I am at the sign up page</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430086' status='passed' stop='1523630430108'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cf5fa4db-8811-4be9-b48d-a20d642d6913-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='c0b1f87e-44af-4726-a5c9-4c5527b747be-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430111' status='passed' stop='1523630430129'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cb730ad2-5585-4553-a16b-588669f52031-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='1e5c2ea9-7a5d-4860-ae15-c0e89fa58a8a-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430131' status='passed' stop='1523630430141'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5cade4b2-036b-4cff-adc2-424b2561fcdd-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='36576b2b-5a2c-4a7a-8790-90e8ca77b127-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430143' status='passed' stop='1523630430166'>
+                    <name>GET /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-3/text</name>
+                    <title>GET /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-3/text</title>
+                    <attachments>
+                        <attachment title='Response' source='4195067f-5381-422c-89fe-f8585f73d676-attachment.json' type='application/json' size='101'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430168' status='passed' stop='1523630430211'>
+            <name>I clear the sign up full name input field</name>
+            <title>I clear the sign up full name input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430171' status='passed' stop='1523630430189'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d6fc79fd-f083-4407-b53c-5afc875197df-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='50d80b5d-5055-4954-b74e-7d66bf2302af-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430192' status='passed' stop='1523630430211'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-4/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-4/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='c935ce97-69fe-4cfd-8edd-9ef4e47f609e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430211' status='passed' stop='1523630430328'>
+            <name>I add a random string to the sign up full name input field</name>
+            <title>I add a random string to the sign up full name input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430213' status='passed' stop='1523630430224'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='59e8f1ab-8c5f-4190-8f85-fd32f0cefa15-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='a653dced-5850-4a66-b3d8-83e5cc8512f8-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430226' status='passed' stop='1523630430238'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-4/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-4/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='26594227-ff3c-40c3-be23-9251798b5358-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430238' status='passed' stop='1523630430328'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-4/value</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-4/value</title>
+                    <attachments>
+                        <attachment title='Request' source='9a39a5c3-05b5-4780-b1ea-727e929ad80f-attachment.json' type='application/json' size='333'/>
+                        <attachment title='Response' source='23f903df-d4dc-4192-bf73-77ba0aeb43b3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430328' status='passed' stop='1523630430373'>
+            <name>I clear the sign up working hours input field</name>
+            <title>I clear the sign up working hours input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430331' status='passed' stop='1523630430347'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='59b0d7ff-12d9-4397-9ce7-46c054200538-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='719e801a-5d34-41d9-957f-9821d6fce4e0-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430351' status='passed' stop='1523630430373'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-5/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-5/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='ade576c3-bc79-4609-8fff-0b899d6ca82f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430373' status='passed' stop='1523630430440'>
+            <name>I add a random number to the sign up working hours input field</name>
+            <title>I add a random number to the sign up working hours input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430375' status='passed' stop='1523630430388'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3b20da18-986c-45f3-bfd6-65c8689d7843-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='c60974fc-a4ae-4550-b491-91e0b37ab597-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430389' status='passed' stop='1523630430403'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-5/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-5/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='01c5b2b8-19ac-4f9d-b14d-9d6f3bc2c8b5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430403' status='passed' stop='1523630430439'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-5/value</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-5/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b514c9ce-0e12-4ab1-8012-4051f4d1ada2-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='abc2085d-21a5-45f1-af8e-2a43b0e560fd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430440' status='passed' stop='1523630430489'>
+            <name>I clear the sign up username input field</name>
+            <title>I clear the sign up username input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430441' status='passed' stop='1523630430459'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f204cc45-5ee9-4067-9150-52cda314d398-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='a0561068-b789-45df-8a40-7b8dd0de6707-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430464' status='passed' stop='1523630430488'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-6/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-6/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='1816eaf3-85b4-4904-a29a-c3dcd4b254ef-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430489' status='passed' stop='1523630430576'>
+            <name>I add a random string to the sign up username input field</name>
+            <title>I add a random string to the sign up username input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430491' status='passed' stop='1523630430503'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b3d6596d-dc91-4909-8598-233190b649e8-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='d0d8f728-12e9-4afa-8c3f-a337685884e5-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430506' status='passed' stop='1523630430519'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-6/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-6/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='c35ff767-5e94-4601-a3d8-d50c66591d45-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430519' status='passed' stop='1523630430576'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-6/value</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-6/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ed60677c-4be3-41d9-ab57-32de3335b8ee-attachment.json' type='application/json' size='179'/>
+                        <attachment title='Response' source='d5bdc080-6a3b-4f57-a36f-3c77b1168051-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430576' status='passed' stop='1523630430621'>
+            <name>I clear the sign up password input field</name>
+            <title>I clear the sign up password input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430578' status='passed' stop='1523630430596'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ecb4a65c-255b-412f-a846-4b7cdf71e9a2-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='c0b5ce0a-a191-48b2-b681-a506ba514bf1-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430599' status='passed' stop='1523630430621'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-7/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-7/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='2b8793eb-6f92-4c28-b465-6a5f7072e267-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430621' status='passed' stop='1523630430727'>
+            <name>I add a random string to the sign up password input field</name>
+            <title>I add a random string to the sign up password input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430623' status='passed' stop='1523630430635'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f894b11c-2cdc-4fad-99fd-455974fb2d70-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='af4c9d7d-5d9a-4b8f-aa5c-65cdc733ad79-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430639' status='passed' stop='1523630430652'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-7/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-7/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='8c5bbd99-0924-4f1b-af91-d82ce26e5f3e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430654' status='passed' stop='1523630430727'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-7/value</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='a42204ee-6f2e-4b03-a943-7396ba83d515-attachment.json' type='application/json' size='193'/>
+                        <attachment title='Response' source='aba7013a-26c2-42d7-80e9-5f5272162e39-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430727' status='passed' stop='1523630430772'>
+            <name>I clear the sign up password confirmation input field</name>
+            <title>I clear the sign up password confirmation input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430728' status='passed' stop='1523630430749'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ab0648c1-2c27-4fed-a74f-28506019fa0d-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='f966dbfc-48c0-491b-aaa6-53eec5b0d757-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430751' status='passed' stop='1523630430772'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='73f49d54-c2b4-4f94-b341-982c7973bce7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430772' status='passed' stop='1523630430852'>
+            <name>I add the generated password number to the sign up password confirmation input field</name>
+            <title>I add the generated password number to the sign up password confirmation input field</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430773' status='passed' stop='1523630430785'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0c313af9-6871-495a-b2c1-3d8d786da9de-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='2f3ad00b-3e25-4a10-8e0f-4027f753ff28-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430786' status='passed' stop='1523630430797'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/clear</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='308e7105-5ff7-4ce9-a582-2c19af631044-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430797' status='passed' stop='1523630430852'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/value</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-8/value</title>
+                    <attachments>
+                        <attachment title='Request' source='5e051c60-84e8-4ae7-a8b5-4621ec97e0e1-attachment.json' type='application/json' size='193'/>
+                        <attachment title='Response' source='b41ebec2-25e1-44d6-b6fe-d5689238b20e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430852' status='passed' stop='1523630430967'>
+            <name>I click on the sign up save button</name>
+            <title>I click on the sign up save button</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430854' status='passed' stop='1523630430875'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a4ef699f-dc66-42eb-adfa-629db0f059e5-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='0cabd400-f93f-48bb-a1a9-ba1ce1ccf602-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630430877' status='passed' stop='1523630430966'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-9/click</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-9/click</title>
+                    <attachments>
+                        <attachment title='Response' source='288bab94-3421-4040-8cd4-21a5e73d21d1-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1523630430967' status='passed' stop='1523630432065'>
+            <name>I am redirected to the tasks page</name>
+            <title>I am redirected to the tasks page</title>
+            <labels>
+                <label name='feature' value='Testing the SIGN UP PAGE for the Time Management System'/>
+                <label name='story' value='sign up with all required fields randomly generated'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Projects\\seleniumJS\\features\\signup.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1523630430971' status='passed' stop='1523630430998'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d7096a37-bde3-4d55-bea1-c458230f0bca-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='8f238721-f5f7-4e33-9bfc-7c4b1d4897e3-attachment.json' type='application/json' size='726'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630431001' status='passed' stop='1523630431020'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='84ce4fa0-5f7f-40a8-b9f0-fd3c7e486a19-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='381f2d0c-e6fc-426c-a7ab-cd8ac80c2145-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630431508' status='passed' stop='1523630431522'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8a83d456-fbc7-4f65-aa0b-f62f5fca5ead-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='c5fab5d7-b4d7-4e7d-ad5f-7e613435fecf-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630432007' status='passed' stop='1523630432023'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6c0ce892-b36c-4053-aa82-495943b8391c-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='8e722967-3f6f-4503-9934-2f78028256b3-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630432023' status='passed' stop='1523630432038'>
+                    <name>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</name>
+                    <title>POST /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c086df53-3f67-4728-8c5f-26cf50565bbf-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='4b3fde72-38c4-4e62-acaf-281aba808759-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523630432039' status='passed' stop='1523630432065'>
+                    <name>GET /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-10/text</name>
+                    <title>GET /wd/hub/session/c9a069da1264c0d2390b4b6f2eea89b5/element/0.6788466289536632-10/text</title>
+                    <attachments>
+                        <attachment title='Response' source='74feec79-71c2-4199-8019-7df0f027a45b-attachment.json' type='application/json' size='97'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
